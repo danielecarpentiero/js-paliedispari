@@ -23,7 +23,6 @@ if (playerChoice === "pari") {
 }
 
 const playerNumber = prompt("scegli un numero compreso fra 1 e 5");
-const sum = playerNumber + computerNumber;
 
 function checkSum(playerNumber, computerNumber) {
   if ((playerNumber + computerNumber) % 2 === 0) {
