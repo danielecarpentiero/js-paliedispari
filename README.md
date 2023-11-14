@@ -1,5 +1,10 @@
 # Palindroma
 
+1. chiedo all'utente di digitare una parola, e la salvo in una variabile
+1. creo una funzione per controllare se la parola è palindroma o no:
+   - se, confrontando la parola questa è palindroma, allora verrà stampato un messaggio di conferma
+   - altrimenti, verrà stampato un messaggio che afferma che la parola digitata non è palindroma
+
 # Pali e dispari
 
 1. chiedo all'utente di compiere una scelta fra pari o dispari.
