@@ -22,6 +22,7 @@ if (playerChoice === "pari") {
   console.log("hai inserito un valore non valido");
 }
 
+const playerNumber = prompt("scegli un numero compreso fra 1 e 5");
 const sum = playerNumber + computerNumber;
 
 function checkSum(playerNumber, computerNumber) {
@@ -32,7 +33,6 @@ function checkSum(playerNumber, computerNumber) {
   }
 }
 
-const playerNumber = +prompt("scegli un numero compreso fra 1 e 5");
 if (playerNumber >= 1 && playerNumber <= 5) {
   console.log(checkSum);
 }
